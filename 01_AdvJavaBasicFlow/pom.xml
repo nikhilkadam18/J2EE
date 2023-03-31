@@ -4,4 +4,19 @@
   <artifactId>01_AdvJavaBasicFlow</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  
+  <properties>
+		<maven.compiler.target>17</maven.compiler.target>
+		<maven.compiler.source>17</maven.compiler.source>
+	</properties>
+  
+  <dependencies>
+		<!-- for accesss servlet classes add below depedency -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>4.0.1</version>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 </project>
