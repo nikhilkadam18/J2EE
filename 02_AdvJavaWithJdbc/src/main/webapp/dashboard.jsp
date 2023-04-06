@@ -6,8 +6,8 @@
 <meta charset="ISO-8859-1">
 <title>Dashboard</title>
 </head>
-<body>
-<h4>Welcome to dashbboard</h4>
+<body style="background-color: #ffff99;">
+<h1> <font color="red">Welcome to dashbboard</h1></font>
 
 </body>
 </html>
