@@ -42,7 +42,7 @@ public class LoginController extends HttpServlet {
 			RequestDispatcher rd = null;
 
 			// step 3 : navigate data
-			if (rs.next()) {// udy v4ra dought.
+			if (rs.next()) {
 				System.out.println("User found !");
 				response.sendRedirect("dashboard.jsp");
 			} else {
