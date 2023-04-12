@@ -4,12 +4,11 @@
 <html>
 <head>
 <style type="text/css">
-.Css{
+.Css {
 	background-color: #66ffcc;
 	position: absolute;
-	top:20%;
+	top: 20%;
 	left: 40%;
-	
 }
 </style>
 <meta charset="ISO-8859-1">
@@ -20,9 +19,9 @@
 	<h4>Login Page</h4>
 	<h6 style="color: red;">${errormessage}</h6>
 	<form action="LoginController" method="post">
-		Email : <input type="email" name="email" /> <br>
-		<br> Password : <input type="password" name="password" /> <br>
-		<br> <input type="submit" value="Login">
+		Email : <input type="email" name="email" /> <br> <br>
+		Password : <input type="password" name="password" /> <br> <br>
+		<input type="submit" value="Login">
 	</form>
 
 </body>
